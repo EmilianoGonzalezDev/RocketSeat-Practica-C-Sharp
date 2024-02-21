@@ -16,6 +16,5 @@ public class GetCurrentAuctionUseCase
             .Auctions
             .Include(a => a.Items)
             .First();
-            //.FirstOrDefault(a => today >= a.Starts && today <= a.Ends);
     }
 }
